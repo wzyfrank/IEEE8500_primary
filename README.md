@@ -7,3 +7,5 @@ Edits from the original OpenDSS model:
 (3) the Vminpu parameter of loads are modified from .88 to .80 p.u. to avoid the auto-conversion from constant PQ to constant impedance.
 (4) the parameters (%imag, %Noloadloss, %loadloss and Xhl) are set at very small values to ingore the losses of load transformer.
 (5) the length of secondary lines are set at very small values to ingore the losses of secondary lines.
+
+The code requires (1) MATLAB, (2) YALMIP to call the solver (3) SeDuMi as the SDP solver.
