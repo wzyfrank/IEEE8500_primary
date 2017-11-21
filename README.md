@@ -8,4 +8,4 @@ Edits from the original OpenDSS model:
 (4) the parameters (%imag, %Noloadloss, %loadloss and Xhl) are set at very small values to ingore the losses of load transformer.
 (5) the length of secondary lines are set at very small values to ingore the losses of secondary lines.
 
-The code requires (1) MATLAB, (2) YALMIP to call the solver (3) SeDuMi as the SDP solver.
+Requires: (1) MATLAB, (2) YALMIP (3) SeDuMi or Mosek as the SDP solver.
