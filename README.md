@@ -9,3 +9,6 @@ Edits from the original OpenDSS model:
 (5) the length of secondary lines are set at very small values to ingore the losses of secondary lines.
 
 Requires: (1) MATLAB, (2) YALMIP (3) SeDuMi or Mosek as the SDP solver.
+
+Reference: Accurate Semidefinite Programming Models for Optimal Power Flow in Distribution Systems
+https://arxiv.org/abs/1711.07853
